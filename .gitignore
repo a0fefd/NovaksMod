@@ -1,2 +1,8 @@
 ﻿# Ignore solution file
-*.sln*.sln
+*.sln
+
+# Ignore compiled files
+bin/
+
+# Ignore visual studio files
+.vs/
