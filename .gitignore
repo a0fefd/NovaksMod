@@ -6,3 +6,6 @@ bin/
 
 # Ignore visual studio files
 .vs/
+
+# Ignore object folder
+obj/
