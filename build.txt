@@ -1,0 +1,3 @@
+displayName = Novak's Mod
+author = nbslay
+version = 0.1

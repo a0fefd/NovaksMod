@@ -1,0 +1,16 @@
+
+Mods: {
+	NovaksMod: {
+		Items: {
+			TrueSpeed: {
+				DisplayName: True Speed
+				Tooltip: Gives you the True Speed of a Master.
+			}
+
+			SwordofDestruction: {
+				DisplayName: Sword of Destruction
+				Tooltip: Be careful with the power you weild...
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KgbhM1n/yzWa2DNFPaKmozi69tZMSpwcKEq6Y4DendzQZ889G2RnOS0PUnn/f1qqI/E3vzkRHb0P4Cd3o5D9pA==",
+  "success": true,
+  "projectFilePath": "D:\\nbigi0\\My Documents\\My Games\\Terraria\\tModLoader\\ModSources\\NovaksMod\\NovaksMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nbigi0\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
