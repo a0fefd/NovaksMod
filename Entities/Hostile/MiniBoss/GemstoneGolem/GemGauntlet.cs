@@ -16,8 +16,10 @@ namespace NovaksMod.Entities.Hostile.MiniBoss.GemstoneGolem
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("Awakens the protecter of gemstones...\n" +
-                "Summons the Gemstone Golem.");
+            Tooltip.SetDefault(
+                "Awakens the protecter of gemstones...\n" +
+                "Summons the Gemstone Golem."
+                );
         }
         public override void SetDefaults()
         {
@@ -29,6 +31,7 @@ namespace NovaksMod.Entities.Hostile.MiniBoss.GemstoneGolem
             Item.UseSound = SoundID.Item2;
             Item.maxStack = 30;
             Item.consumable = true;
+            Item.value = Item.buyPrice(gold: 1);
         }
         public override bool? UseItem(Player player)
         {
@@ -39,7 +42,6 @@ namespace NovaksMod.Entities.Hostile.MiniBoss.GemstoneGolem
         }
         public override bool CanUseItem(Player player)
         {
-            // Only allow the player to use this item if they are missing health
             return !Main.dayTime;
         }
     }

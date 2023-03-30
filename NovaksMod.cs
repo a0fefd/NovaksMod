@@ -12,5 +12,6 @@ namespace NovaksMod
         public override void Load()
         {
         }
+
     }
 }

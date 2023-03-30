@@ -1,4 +1,6 @@
-﻿using NovaksMod.Items.Materials;
+﻿using NovaksMod.Entities.Hostile.MiniBoss.GemstoneGolem;
+using NovaksMod.Items.Materials;
+using rail;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +18,14 @@ namespace NovaksMod
         {
             //The if (Main.rand.Next(x) == 0) determines how rare the drop is. To find the percent of a drop, divide 100 by your desired percent, minus the percent sign. Ex: A 2% chance would be 100% / 2%, or 50. This is what you put in place of x.
 
+        }
+        public override void SetupShop(int type, Chest shop, ref int nextSlot)
+        {
+            if (type == NPCID.Merchant)
+            {
+                Item i = new Item(ModContent.ItemType<GemGauntlet>(), 30);
+                shop.AddItemToShop(i);
+            }
         }
     }
 }
