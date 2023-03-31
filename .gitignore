@@ -2,10 +2,10 @@
 *.sln
 
 # Ignore compiled files
-bin\
+bin/Debug/
 
 # Ignore visual studio files
-.vs\
+.vs/NovaksMod/
 
 # Ignore object folder
-obj\
+obj/Debug/
