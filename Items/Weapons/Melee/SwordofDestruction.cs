@@ -29,6 +29,7 @@ namespace NovaksMod.Items.Weapons.Melee
             Item.width = 20; Item.height = 26;
             Item.master = true; Item.master = true;
             Item.SetWeaponValues(600, 10000, 90);
+            Item.DamageType = DamageClass.Melee;
             Item.stack = 1;
             Item.rare = ItemRarityID.Expert;
             Item.value = Item.sellPrice(platinum: 99);
