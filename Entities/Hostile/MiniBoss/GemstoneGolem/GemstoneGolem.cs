@@ -17,7 +17,7 @@ namespace NovaksMod.Entities.Hostile.MiniBoss.GemstoneGolem
         }
         public override void SetDefaults()
         {
-            NPC.width = 40; NPC.height = 50;
+            NPC.width = 80; NPC.height = 100;
             NPC.damage = 10;
             NPC.defense = 5;
             NPC.lifeMax = 700;
@@ -50,6 +50,10 @@ namespace NovaksMod.Entities.Hostile.MiniBoss.GemstoneGolem
             Item.NewItem(NPC.GetSource_Death(), NPC.getRect(), gems[s1], Main.rand.Next(1, 3));
             Item.NewItem(NPC.GetSource_Death(), NPC.getRect(), gems[s2], Main.rand.Next(1, 3));
             Item.NewItem(NPC.GetSource_Death(), NPC.getRect(), gems[s3], Main.rand.Next(1, 3));
+            if (Main.rand.Next(0, 5) == 1)
+            {
+                Item.NewItem(NPC.GetSource_Death(), NPC.getRect(), ModContent.ItemType<GemstoneAmalgamate>(), 1);
+            }
         }
     }
 }

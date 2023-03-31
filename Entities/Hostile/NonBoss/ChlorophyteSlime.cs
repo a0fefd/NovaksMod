@@ -22,7 +22,7 @@ namespace NovaksMod.Entities.Hostile.NonBoss
             NPC.width = 32; NPC.height = 15;
             NPC.damage = 25;
             NPC.defense = 20;
-            NPC.lifeMax = 150;
+            NPC.lifeMax = 200;
             NPC.value = Item.sellPrice(silver: 1);
             NPC.aiStyle = 1;
             NPC.HitSound = SoundID.NPCHit1;

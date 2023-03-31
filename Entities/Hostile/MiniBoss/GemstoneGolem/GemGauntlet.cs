@@ -31,12 +31,11 @@ namespace NovaksMod.Entities.Hostile.MiniBoss.GemstoneGolem
             Item.UseSound = SoundID.Item2;
             Item.maxStack = 30;
             Item.consumable = true;
-            Item.value = Item.buyPrice(gold: 1);
+            Item.value = Item.buyPrice(gold: 2);
         }
         public override bool? UseItem(Player player)
         {
             NPC.NewNPC(player.GetSource_FromThis(), (int)player.itemLocation.X -15, (int)player.itemLocation.Y, ModContent.NPCType<GemstoneGolem>());
-            Main.NewText("Test");
 
             return true;
         }
