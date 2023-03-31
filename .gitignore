@@ -2,10 +2,10 @@
 *.sln
 
 # Ignore compiled files
-bin/
+bin\
 
 # Ignore visual studio files
-.vs/
+.vs\
 
 # Ignore object folder
-obj/
+obj\
