@@ -9,3 +9,10 @@ bin/Debug/
 
 # Ignore object folder
 obj/Debug/
+
+# Ignore files
+*.dll
+*.pdb
+*.cache
+*.1
+*.v2
