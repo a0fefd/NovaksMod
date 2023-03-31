@@ -1,4 +1,4 @@
-﻿using NovaksMod.Items.Materials;
+﻿using NovaksMod.Content.Items.Materials;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -31,19 +31,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nbigi0\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\nbigi0\\My Documents\\My Games\\Terraria\\tModLoader\\ModSources\\NovaksMod\\NovaksMod.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\NovaksMod\\NovaksMod.csproj",
       "projectName": "NovaksMod",
-      "projectPath": "D:\\nbigi0\\My Documents\\My Games\\Terraria\\tModLoader\\ModSources\\NovaksMod\\NovaksMod.csproj",
-      "packagesPath": "C:\\Users\\nbigi0\\.nuget\\packages\\",
-      "outputPath": "D:\\nbigi0\\My Documents\\My Games\\Terraria\\tModLoader\\ModSources\\NovaksMod\\obj\\",
+      "projectPath": "C:\\Users\\PC\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\NovaksMod\\NovaksMod.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\NovaksMod\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\nbigi0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -90,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

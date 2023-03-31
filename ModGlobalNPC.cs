@@ -1,5 +1,4 @@
-﻿using NovaksMod.Entities.Hostile.MiniBoss.GemstoneGolem;
-using NovaksMod.Items.Materials;
+﻿using NovaksMod.Content.Entities.Hostile.MiniBoss.GemstoneGolem;
 using rail;
 using System;
 using System.Collections.Generic;
